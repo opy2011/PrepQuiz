@@ -133,7 +133,7 @@ public class SignUpActivity extends AppCompatActivity implements View.OnClickLis
                             public void onComplete(@NonNull Task<Void> task) {
                                 if (task.isSuccessful()) {
                                     progressBar.setVisibility(View.INVISIBLE);
-                                    Toast.makeText(SignUpActivity.this, "Account created successfully! Please Login", Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(SignUpActivity.this, "Account crea   ted successfully! Please Login", Toast.LENGTH_SHORT).show();
                                 } else {
                                     progressBar.setVisibility(View.INVISIBLE);
                                     Toast.makeText(SignUpActivity.this, "Something went wrong! Please try again", Toast.LENGTH_SHORT).show();
